@@ -17,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1uQkmlW2KIvXiam9TtQbhhNcYVG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,12 +51,23 @@
       <workItem from="1624655349818" duration="2258000" />
       <workItem from="1624740891336" duration="10209000" />
       <workItem from="1624821874281" duration="5456000" />
-      <workItem from="1624993763817" duration="1217000" />
+      <workItem from="1624993763817" duration="1758000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="-1089" y="677" key="#File_Watchers" timestamp="1624609286810">
@@ -71,10 +86,14 @@
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
     <state x="-1093" y="611" width="579" height="499" key="EnvironmentVariablesDialog/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624609284174" />
-    <state x="-1180" y="598" key="FileChooserDialogImpl" timestamp="1624612305905">
+    <state x="-1180" y="598" key="FileChooserDialogImpl" timestamp="1624997399182">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="598" key="FileChooserDialogImpl/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624612305905" />
+    <state x="-1180" y="598" key="FileChooserDialogImpl/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624997399182" />
+    <state x="-1089" y="741" key="Github.ShareDialog" timestamp="1624996953369">
+      <screen x="-1920" y="323" width="1920" height="1040" />
+    </state>
+    <state x="-1089" y="741" key="Github.ShareDialog/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624996953369" />
     <state x="-1459" y="488" key="SettingsEditor" timestamp="1624612381630">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
