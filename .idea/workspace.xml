@@ -16,18 +16,12 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="">
+    <list default="true" id="159ed298-7c80-4270-8d5f-05b0d75e79af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about-us.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +31,15 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="main" />
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1uQkmlW2KIvXiam9TtQbhhNcYVG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1udg5aRVtoibQVma64XCDZnF2M2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,29 +47,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/layout.pug" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Strony/atom" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\domin\Desktop\Strony\atom\views\includes" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="" />
-      <created>1624605361886</created>
+      <changelist id="159ed298-7c80-4270-8d5f-05b0d75e79af" name="Default Changelist" comment="" />
+      <created>1625000698246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624605361886</updated>
-      <workItem from="1624605363482" duration="5601000" />
-      <workItem from="1624655349818" duration="2258000" />
-      <workItem from="1624740891336" duration="10209000" />
-      <workItem from="1624821874281" duration="5456000" />
-      <workItem from="1624993763817" duration="1758000" />
+      <updated>1625000698246</updated>
+      <workItem from="1625000699778" duration="137000" />
+      <workItem from="1628625266018" duration="1664000" />
     </task>
     <servers />
   </component>
@@ -100,46 +79,26 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixup! First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! First commit" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="-1089" y="677" key="#File_Watchers" timestamp="1624609286810">
+    <state x="-1180" y="598" key="FileChooserDialogImpl" timestamp="1625000835006">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1089" y="677" key="#File_Watchers/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624609286810" />
-    <state x="-1205" y="645" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624746487816">
+    <state x="-1180" y="598" key="FileChooserDialogImpl/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1625000835006" />
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1628625357236">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1205" y="645" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624746487816" />
-    <state x="-1291" y="621" width="662" height="479" key="EditFileWatcherDialog" timestamp="1624609285594">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357236" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1628625357235">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1291" y="621" width="662" height="479" key="EditFileWatcherDialog/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624609285594" />
-    <state x="-1093" y="611" width="579" height="499" key="EnvironmentVariablesDialog" timestamp="1624609284174">
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357235" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1628625357235">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1093" y="611" width="579" height="499" key="EnvironmentVariablesDialog/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624609284174" />
-    <state x="-1180" y="598" key="FileChooserDialogImpl" timestamp="1624997399182">
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357235" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1628625357235">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="598" key="FileChooserDialogImpl/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624997399182" />
-    <state x="-1089" y="741" key="Github.ShareDialog" timestamp="1624996953369">
-      <screen x="-1920" y="323" width="1920" height="1040" />
-    </state>
-    <state x="-1089" y="741" key="Github.ShareDialog/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624996953369" />
-    <state x="-1459" y="488" key="SettingsEditor" timestamp="1624612381630">
-      <screen x="-1920" y="323" width="1920" height="1040" />
-    </state>
-    <state x="-1459" y="488" key="SettingsEditor/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624612381630" />
-    <state x="-1158" y="742" key="git4idea.ui.GitStashDialog" timestamp="1625001540630">
-      <screen x="-1920" y="323" width="1920" height="1040" />
-    </state>
-    <state x="-1158" y="742" key="git4idea.ui.GitStashDialog/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1625001540630" />
-    <state x="-1297" y="548" width="672" height="678" key="search.everywhere.popup" timestamp="1624749638482">
-      <screen x="-1920" y="323" width="1920" height="1040" />
-    </state>
-    <state x="-1297" y="548" width="672" height="678" key="search.everywhere.popup/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1624749638482" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357235" />
   </component>
 </project>
