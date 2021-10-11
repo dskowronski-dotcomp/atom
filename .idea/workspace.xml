@@ -19,9 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="159ed298-7c80-4270-8d5f-05b0d75e79af" name="Default Changelist" comment="">
+    <list default="true" id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/js/carouselAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/cctv.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/kd.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ssp.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/sswin.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/navbarAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/navbarAnimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/about-us.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/sales.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/sales.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +43,26 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1udg5aRVtoibQVma64XCDZnF2M2" />
+  <component name="ProjectId" id="1uQkmlW2KIvXiam9TtQbhhNcYVG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,21 +70,48 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Strony/atom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\domin\Desktop\Strony\atom\views\includes" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="159ed298-7c80-4270-8d5f-05b0d75e79af" name="Default Changelist" comment="" />
-      <created>1625000698246</created>
+      <changelist id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="" />
+      <created>1624605361886</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625000698246</updated>
-      <workItem from="1625000699778" duration="137000" />
-      <workItem from="1628625266018" duration="1664000" />
+      <updated>1624605361886</updated>
+      <workItem from="1624605363482" duration="5601000" />
+      <workItem from="1624655349818" duration="2258000" />
+      <workItem from="1624740891336" duration="10209000" />
+      <workItem from="1624821874281" duration="5456000" />
+      <workItem from="1624993763817" duration="1758000" />
+      <workItem from="1629143028738" duration="2870000" />
+      <workItem from="1629309921135" duration="149000" />
+      <workItem from="1629311905130" duration="1306000" />
+      <workItem from="1629313818768" duration="1107000" />
+      <workItem from="1629831857758" duration="5787000" />
+      <workItem from="1629916927990" duration="5222000" />
+      <workItem from="1629994361330" duration="1748000" />
+      <workItem from="1633361649012" duration="2047000" />
+      <workItem from="1633976544376" duration="6024000" />
     </task>
+    <task id="LOCAL-00001" summary="Update gitingore">
+      <created>1628627921664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628627921664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,26 +129,47 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixup! First commit" />
+    <MESSAGE value="Update gitingore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update gitingore" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="598" key="FileChooserDialogImpl" timestamp="1625000835006">
+    <state x="-1213" y="698" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1633984220463">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="598" key="FileChooserDialogImpl/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1625000835006" />
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1628625357236">
+    <state x="-1213" y="698" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1633984220463" />
+    <state x="-1180" y="598" key="FileChooserDialogImpl" timestamp="1629312388878">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357236" />
-    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1628625357235">
+    <state x="-1180" y="598" key="FileChooserDialogImpl/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1629312388878" />
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1628628015385">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357235" />
-    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1628625357235">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628628015385" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1628628015385">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357235" />
-    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1628625357235">
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628628015385" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1628628015385">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628625357235" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628628015385" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1628628015385">
+      <screen x="-1920" y="323" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628628015385" />
+    <state x="-1459" y="488" key="SettingsEditor" timestamp="1628627873780">
+      <screen x="-1920" y="323" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="488" key="SettingsEditor/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628627873780" />
+    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2" timestamp="1628627926312">
+      <screen x="-1920" y="323" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628627926312" />
+    <state x="-1297" y="548" width="672" height="678" key="search.everywhere.popup" timestamp="1629834036322">
+      <screen x="-1920" y="323" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="548" width="672" height="678" key="search.everywhere.popup/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1629834036322" />
   </component>
 </project>

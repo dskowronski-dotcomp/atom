@@ -17,5 +17,16 @@ router.get('/uslugi', (req, res) => {
 router.get('/handel', (req, res) => {
     res.render('sales');
 });
-
+router.get('/handel/sswin', (req, res) => {
+    res.render('sswin');
+});
+router.get('/handel/cctv', (req, res) => {
+    res.render('cctv');
+});
+router.get('/handel/kd', (req, res) => {
+    res.render('kd');
+});
+router.get('/handel/ssp', (req, res) => {
+    res.render('ssp');
+});
 module.exports = router;
