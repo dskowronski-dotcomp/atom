@@ -16,25 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/carouselAnimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/cctv.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/kd.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ssp.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/sswin.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/navbarAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/navbarAnimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about-us.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/sales.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/sales.pug" afterDir="false" />
-    </list>
+    <list default="true" id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="Add content - trade" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +93,7 @@
       <workItem from="1629916927990" duration="5222000" />
       <workItem from="1629994361330" duration="1748000" />
       <workItem from="1633361649012" duration="2047000" />
-      <workItem from="1633976544376" duration="6024000" />
+      <workItem from="1633976544376" duration="6335000" />
     </task>
     <task id="LOCAL-00001" summary="Update gitingore">
       <created>1628627921664</created>
@@ -111,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628627921664</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add content - trade">
+      <created>1633991223343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633991223343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +120,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -132,7 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixup! First commit" />
     <MESSAGE value="Update gitingore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitingore" />
+    <MESSAGE value="Add content - trade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add content - trade" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1213" y="698" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1633984220463">
@@ -163,10 +174,10 @@
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
     <state x="-1459" y="488" key="SettingsEditor/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628627873780" />
-    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2" timestamp="1628627926312">
+    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2" timestamp="1633991238775">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628627926312" />
+    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1633991238775" />
     <state x="-1297" y="548" width="672" height="678" key="search.everywhere.popup" timestamp="1629834036322">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
