@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="Add content - trade" />
+    <list default="true" id="37f3a7ae-e232-4d72-9a16-4d608326cd0c" name="Default Changelist" comment="Add images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,8 @@
       <workItem from="1629916927990" duration="5222000" />
       <workItem from="1629994361330" duration="1748000" />
       <workItem from="1633361649012" duration="2047000" />
-      <workItem from="1633976544376" duration="6335000" />
+      <workItem from="1633976544376" duration="6450000" />
+      <workItem from="1634569421308" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="Update gitingore">
       <created>1628627921664</created>
@@ -109,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633991223343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add images">
+      <created>1633991323673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633991323673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +153,8 @@
     <MESSAGE value="fixup! First commit" />
     <MESSAGE value="Update gitingore" />
     <MESSAGE value="Add content - trade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add content - trade" />
+    <MESSAGE value="Add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1213" y="698" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1633984220463">
@@ -174,10 +185,10 @@
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
     <state x="-1459" y="488" key="SettingsEditor/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1628627873780" />
-    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2" timestamp="1633991238775">
+    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2" timestamp="1633991326070">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1633991238775" />
+    <state x="-1368" y="576" key="Vcs.Push.Dialog.v2/0.0.1368.872/-1920.323.1920.1040@-1920.323.1920.1040" timestamp="1633991326070" />
     <state x="-1297" y="548" width="672" height="678" key="search.everywhere.popup" timestamp="1629834036322">
       <screen x="-1920" y="323" width="1920" height="1040" />
     </state>

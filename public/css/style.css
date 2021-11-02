@@ -49,13 +49,19 @@ body{
     /* HANDEL */
 
     /* sswin */
-#sswin .container .row{
-
-}
 #carouselVanderbiltCzujki img{
-    width: 105px;
-    height: 245px;
+    width: auto;
+    height: auto;
 }
+#sswin .row img{
+    height: auto;
+    width: 50%;
+}
+#sswin .row .col strong{
+    font-size: larger;
+    color: #0b449a;
+}
+
     /* About US */
 
 #naglowek p{
