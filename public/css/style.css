@@ -63,6 +63,18 @@ body{
     font-size: larger;
     color: #0b449a;
 }
+#sswinImage{
+    margin-left: 25%;
+}
+    /* CCTV */
+#cctv{
+    margin-top: 50px;
+}
+#cctvImage{
+    width: 70%;
+    height: auto;
+    margin-left: 25%;
+}
 
     /* About US */
 

@@ -3,22 +3,23 @@ extends includes/layout
 block content
     .container-fluid 
         .container 
-            .row.justify-content-center
+            .row.justify-content-center#cctv
                 p GANZ logo
             .row.row-cols-2 
-                .col
+                .col.my-auto
                     p 
                         | Marka 
                         strong GANZ 
                         | oferuje zintegrowane rozwiązania dla wielu segmentów rynku i obejmuje szeroki wachlarz produktów począwszy od kamer AHD i IP, poprzez inteligentną analitykę obrazu, po rejestratory sieciowe i zaawansowane oprogramowanie centralnego zarządzania.
                 .col
+                    img(src="/images/ganz_cam3.png", alt="Kamera GANZ", id="cctvImage")
             hr
             .row.justify-content-center
                 p COMPUTAR logo
             .row.row-cols-2 
                 .col
-                    
-                .col
+                    img(src="/images/lens.png", alt="OBIEKTYW COMPUTAR", id="cctvImage")
+                .col.my-auto
                     p 
                         | Obiektywy 
                         strong COMPUTAR 
