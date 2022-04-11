@@ -22,7 +22,7 @@ body{
 #companyname hr{
     width: 50%;
 }
-@media all and (max-width: 1600px) {
+@media (max-width: 1600px) {
     #vanderbiltlogo img{
         margin-left: auto;
         margin-right: auto;
@@ -32,10 +32,9 @@ body{
         margin-right: auto;
     }
 }
-@media all and (min-width: 1600px) {
+@media (min-width: 1600px) {
     #vanderbiltlogo img{
-        margin-left: auto;
-        margin-right: auto;
+        float: right;
     }
 }
 #vanderbiltlogo img{
@@ -186,6 +185,94 @@ body{
     text-align: center;
     margin-top: -10px;
 
+}
+                        /* KONTAKT */
+
+@media (max-width: 767px) {
+    #contactformfull{
+        display: none;
+    }
+    #contactformmobile{
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    #contactformfull{
+        display: block;
+    }
+    #contactformmobile{
+        display: none;
+    }
+}
+
+#headercontact .row h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px black;
+}
+#headercontact .row .col p{
+    margin-bottom: 0px;
+}
+#headercontact .row h5{
+    margin-bottom: 20px;
+}
+#contactformfull .row-cols-2{
+    margin-bottom: 20px;
+}
+#contactformfull .row .col-4{
+    text-align: center;
+    font-weight: bold;
+}
+#contactformfull .row .col-8 input{
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border-width: 0;
+    border-color: rgba(0,0,0,0);
+    color: #22181c;
+    background-color: #ffffff;
+    outline: none;
+    -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+}
+#contactformfull .row .col-8 textarea{
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border-width: 0;
+    border-color: rgba(0,0,0,0);
+    color: #22181c;
+    background-color: #ffffff;
+    outline: none;
+    -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+}
+#contactformmobile .row{
+    margin-bottom: 20px;
+}
+#contactformmobile .row .col input{
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border-width: 0;
+    border-color: rgba(0,0,0,0);
+    color: #22181c;
+    background-color: #ffffff;
+    outline: none;
+    -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+}
+#contactformmobile .row .col textarea{
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border-width: 0;
+    border-color: rgba(0,0,0,0);
+    color: #22181c;
+    background-color: #ffffff;
+    outline: none;
+    -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
 }
 
                         /* zaufali nam */
