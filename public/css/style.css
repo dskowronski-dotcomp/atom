@@ -9,9 +9,59 @@ body{
     min-height: 100%;
 }
     /*CARDS index and sales*/
-
+#companyname{
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+    
+}
+#companyname h3{
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+#companyname hr{
+    width: 50%;
+}
+@media all and (max-width: 1600px) {
+    #vanderbiltlogo img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ganzlogo img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media all and (min-width: 1600px) {
+    #vanderbiltlogo img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+#vanderbiltlogo img{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+#ganzlogo img{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+#vanderbiltlogo{
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ganzlogo{
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+} 
 #cards{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 #cards a{
     padding: 0;
@@ -71,9 +121,17 @@ body{
     margin-top: 50px;
 }
 #cctvImage{
-    width: 70%;
+    width: 50%;
     height: auto;
     margin-left: 25%;
+}
+#brandlogo{
+    height: 150px;
+    width: auto;
+}
+#brandlogo2{
+    height: 60px;
+    width: auto;
 }
 
     /* About US */
@@ -260,7 +318,7 @@ footer{
     transition : all 0.3s ease-out;
 }
 .start-header.scroll-on .navbar-brand img{
-    height: 24px;
+    height: 35px;
     -webkit-transition : all 0.3s ease-out;
     transition : all 0.3s ease-out;
 }
@@ -277,10 +335,10 @@ footer{
     padding: 0;
 }
 .navbar-brand img{
-    height: 28px;
+    height: 70px;
     width: auto;
     display: block;
-    filter: brightness(10%);
+    /*filter: brightness(10%);*/
     -webkit-transition : all 0.3s ease-out;
     transition : all 0.3s ease-out;
 }
