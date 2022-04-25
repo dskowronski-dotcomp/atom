@@ -133,6 +133,41 @@ body{
     width: auto;
 }
 
+.card-without-border{
+    border: 0px;
+}
+.card-without-border:hover{
+    transform: none;
+}
+#card-section .card{
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-section{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.199);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+.card-section:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    z-index: 0;
+}
+
+#productsSSWIN .card{
+    -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+}
+#productsSSWIN .card-footer{
+    margin: auto;
+    background-color: white;
+    border-top: 0px;
+    margin-bottom: 10px;
+}
+
     /* About US */
 
 #naglowek p{

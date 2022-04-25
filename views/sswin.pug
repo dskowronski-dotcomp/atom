@@ -9,106 +9,294 @@ block content
                 p
                     strong Vanderbilt
                     |  oferuje szeroką gamę produktów systemów bezpieczeństwa i wyjątkową obsługę klienta w oparciu o podstawowe wartości: funkcjonalność, łatwość adaptacji, niezawodność.
-            hr
-            .row.row-cols-md-2
-                .col.my-auto
+            //hr
 
-                    h4 Czujniki ruchu seria PDM
-                    p Profesjonalne czujki ruchu MAGIC typu PDM  zwracają na siebie uwagę nowoczesnym i eleganckim wyglądem. Konstrukcja obudowy pozwalana na zastosowanie  czujek w każdych aranżacjach. Opatentowane lustro MAGIC oraz udoskonalony algorytm obróbki sygnału nowej generacji – VISATEC / MATCHTEC, zapewniają niezawodne wykrywanie intruzów i najwyższą odporność na fałszywe alarmy. Konstrukcja czujki oraz przyjęta nowa koncepcja montażu rezystorów EoL pozwalają na szybką i pozbawioną błędów instalację.
-                .col
-                    #carouselVanderbiltCzujki.carousel.slide(data-ride='carousel')
-                        .carousel-inner
-                            .carousel-item.active
-                                img.d-block.w-100(src='/images/vanderbilt_czujka.jpg' alt='Czujka Vanderbilt')
-                            .carousel-item
-                                img.d-block.w-100(src='/images/vanderbilt_czujka1.jpg' alt='Czujka Vanderbilt')
-                            .carousel-item
-                                img.d-block.w-100(src='/images/vanderbilt_czujka2.jpg' alt='Czujka Vanderbilt')
-                        a.carousel-control-prev(href='#carouselVanderbiltCzujki' role='button' data-slide='prev')
-                            span.carousel-control-prev-icon(aria-hidden='true')
-                            span.sr-only Previous
-                        a.carousel-control-next(href='#carouselVanderbiltCzujki' role='button' data-slide='next')
-                            span.carousel-control-next-icon(aria-hidden='true')
-                            span.sr-only Next
+            .row#card-section
+                .card.card-header.card-section(data-toggle="collapse" data-target="#centralealarmowe" aria-expanded="false" aria-controls="centralealarmowe") 
+                    h3.card-title Centrale alarmowe
+                        //- svg(xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16")
+                        //-     path(fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z")
+                        //-     path(fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z")
 
-            hr
-            .row.row-cols-md-2 
-                .col
-                    h4 Czujniki sejsmiczne seria GM 
-                    p Czujniki stosowane do ochrony sejfów, nocnych depozytów i bankomatów. Indywidualne ustawienia przy zastosowaniu programu SensTool, łatwe testowanie poprawności instalacji i pracy przy użyciu nadajnika testowego GMXS1. Czujnik bimorficzny SENSTEC® i inteligentna, mikroprocesorowa obróbka sygnału zapewniają wysoką pewność detekcji. 
+                .collapse#centralealarmowe 
+                    .card.card-body.card-without-border 
+                        .row 
+                            .card-deck#productsSSWIN
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC4320.320-L1
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla saepe aliquam accusantium voluptates quaerat in qui iusto nobis optio, ratione tenetur nam, officia dicta illo unde sequi tempore animi quibusdam?
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
 
-                .col.my-auto 
-                    img(src="/images/gm760.jpg", alt="GM760", id="sswinImage")
-            hr
-            .row.row-cols-md-2 
-                .col
-                    h4 Centrale alarmowe SPC 
-                    p Systemy alarmowe serii SPC łączą niezrównaną elastyczność i możliwości rozbudowy nawet do 512 linii z atrakcyjną ekonomicznie konstrukcją i koncepcją systemu. Wszystkie centrale SPC spełniają wymagania norm EN 50131 i oferują elastyczny sposób pracy oraz bogaty zestaw funkcji wykorzystywanych w celu zarządzania wymaganymi metodami sygnalizacji włamania i napadu. 
-                .col.my-auto
-                    img(src="/images/spc6330.jpg", alt="SPC6330", id="sswinImage")
-            hr  
-            .row.row-cols-md-2 
-                .col
-                    h4 Manipulatory 
-                    br
-                    strong SPCK42x 
-                    p 
-                        | Klawiatura Standard LCD 
-                        br
-                        | 2x16 znaków alfanumerycznych 
-                        br
-                        | Opcjonalnie: 
-                        ul
-                            li czytnik kart EM (SPCK421)
-                            li odbiornik b/przewodowy
-                        | EN Grade 3
-                .col.my-auto
-                    img(src="/images/spck42.jpg", alt="SPCK42", id="sswinImage")
-            hr
-            .row.row-cols-md-2 
-                .col
-                    strong SPCK62x  
-                    p 
-                        | Klawiatura Comfort LCD 
-                        ul
-                            li Wyświetlacz graficzny 128x64 pixels
-                            li 15 klawiszy, 4 klawisze programowalne i 1 klawisz nawigacyjny 
-                            li Komunikaty głosowe
-                            li Możliwe wyświetlanie własnego LOGO
-                        br
-                        | Opcjonalnie:
-                        ul 
-                            li czytnik kart EM (SPCK623)
-                            li wbudowany głośnik/mikrofon (SPCK623) 
-                        | Dostępna obudowa podtynkowa 
-                        br
-                        | EN Grade 3
-                .col.my-auto 
-                    img(src="/images/spck62.jpg", alt="SPCK62", id="sswinImage")
-            hr
-            .row.row-cols-md-2 
-                .col 
-                    strong SPCK53x
-                    p 
-                        | Klawiatura Compact LCD 
-                        ul 
-                            li Wyświetlacz graficzny 128x64 pixels 
-                            li Klawisze "dotykowe", podświetlane na niebiesko 
-                            li Komunikaty głosowe 
-                            li Możliwe wyświetlanie własnego LOGO
-                        br
-                        | Opcjonalnie: 
-                        ul 
-                            li czytnik kart EM i MiFare (SPCK521)
-                            li odbiornik b/przewodowy
-                        | Dostępna obudowa podtynkowa 
-                        br
-                        | EN Grade 3
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC5320.320-L1
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus animi iure at. Deserunt necessitatibus rem nam, quia nisi labore voluptas, cupiditate qui fugiat delectus placeat! Enim totam molestiae itaque?
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
 
-                .col.my-auto 
-                    img(src="/images/spck52.jpg", alt="SPCK52", id="sswinImage")
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC5330.320-L1
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, enim nesciunt quas dolor magnam eligendi quidem architecto vero facilis officiis, sapiente quis impedit inventore molestiae sint, quia doloremque aut voluptate.
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
+                        .row 
+                            .card-deck#productsSSWIN
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC5350.320-L1
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla saepe aliquam accusantium voluptates quaerat in qui iusto nobis optio, ratione tenetur nam, officia dicta illo unde sequi tempore animi quibusdam?
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
 
-            hr
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC6330.320-L1
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus animi iure at. Deserunt necessitatibus rem nam, quia nisi labore voluptas, cupiditate qui fugiat delectus placeat! Enim totam molestiae itaque?
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC6350.320-L1
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, enim nesciunt quas dolor magnam eligendi quidem architecto vero facilis officiis, sapiente quis impedit inventore molestiae sint, quia doloremque aut voluptate.
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
+                        .row 
+                            .card-deck#productsSSWIN
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC4300.000
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla saepe aliquam accusantium voluptates quaerat in qui iusto nobis optio, ratione tenetur nam, officia dicta illo unde sequi tempore animi quibusdam?
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC5300.000
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus animi iure at. Deserunt necessitatibus rem nam, quia nisi labore voluptas, cupiditate qui fugiat delectus placeat! Enim totam molestiae itaque?
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                                .card
+                                    img.card-img-top(src='/images/spck42.jpg' alt='...')
+                                    .card-body
+                                        h5.card-title SPC6300.000
+                                        p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, enim nesciunt quas dolor magnam eligendi quidem architecto vero facilis officiis, sapiente quis impedit inventore molestiae sint, quia doloremque aut voluptate.
+                                    .card-footer
+                                        a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                            button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                .card.card-header.card-section(data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample") 
+                    h3.card-title Moduły
+                .collapse#collapseExample 
+                    .card.card-body.card-without-border 
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde saepe quidem soluta quis possimus minus, labore ea aliquid corrupti libero. Atque, cumque consequatur. Aut eius, totam excepturi aliquam beatae ad!
+
+            .row 
+                .card-deck#productsSSWIN
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC4320.320-L1
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla saepe aliquam accusantium voluptates quaerat in qui iusto nobis optio, ratione tenetur nam, officia dicta illo unde sequi tempore animi quibusdam?
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC5320.320-L1
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus animi iure at. Deserunt necessitatibus rem nam, quia nisi labore voluptas, cupiditate qui fugiat delectus placeat! Enim totam molestiae itaque?
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC5330.320-L1
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, enim nesciunt quas dolor magnam eligendi quidem architecto vero facilis officiis, sapiente quis impedit inventore molestiae sint, quia doloremque aut voluptate.
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+            .row 
+                .card-deck#productsSSWIN
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC5350.320-L1
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla saepe aliquam accusantium voluptates quaerat in qui iusto nobis optio, ratione tenetur nam, officia dicta illo unde sequi tempore animi quibusdam?
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC6330.320-L1
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus animi iure at. Deserunt necessitatibus rem nam, quia nisi labore voluptas, cupiditate qui fugiat delectus placeat! Enim totam molestiae itaque?
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC6350.320-L1
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, enim nesciunt quas dolor magnam eligendi quidem architecto vero facilis officiis, sapiente quis impedit inventore molestiae sint, quia doloremque aut voluptate.
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+            .row 
+                .card-deck#productsSSWIN
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC4300.000
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla saepe aliquam accusantium voluptates quaerat in qui iusto nobis optio, ratione tenetur nam, officia dicta illo unde sequi tempore animi quibusdam?
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC5300.000
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus animi iure at. Deserunt necessitatibus rem nam, quia nisi labore voluptas, cupiditate qui fugiat delectus placeat! Enim totam molestiae itaque?
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+                    .card
+                        img.card-img-top(src='/images/spck42.jpg' alt='...')
+                        .card-body
+                            h5.card-title SPC6300.000
+                            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, enim nesciunt quas dolor magnam eligendi quidem architecto vero facilis officiis, sapiente quis impedit inventore molestiae sint, quia doloremque aut voluptate.
+                        .card-footer
+                            a(href="/docs/przeglad_oferty_vanderbilt.pdf", target="_blank", rel="noopener noreferrer") 
+                                button(class="btn btn-dark") Pobierz broszurę informacyjną
+
+
+            //- .row.row-cols-md-2
+            //-     .col.my-auto
+
+            //-         h4 Czujniki ruchu seria PDM
+            //-         p Profesjonalne czujki ruchu MAGIC typu PDM  zwracają na siebie uwagę nowoczesnym i eleganckim wyglądem. Konstrukcja obudowy pozwalana na zastosowanie  czujek w każdych aranżacjach. Opatentowane lustro MAGIC oraz udoskonalony algorytm obróbki sygnału nowej generacji – VISATEC / MATCHTEC, zapewniają niezawodne wykrywanie intruzów i najwyższą odporność na fałszywe alarmy. Konstrukcja czujki oraz przyjęta nowa koncepcja montażu rezystorów EoL pozwalają na szybką i pozbawioną błędów instalację.
+            //-     .col
+            //-         #carouselVanderbiltCzujki.carousel.slide(data-ride='carousel')
+            //-             .carousel-inner
+            //-                 .carousel-item.active
+            //-                     img.d-block.w-100(src='/images/vanderbilt_czujka.jpg' alt='Czujka Vanderbilt')
+            //-                 .carousel-item
+            //-                     img.d-block.w-100(src='/images/vanderbilt_czujka1.jpg' alt='Czujka Vanderbilt')
+            //-                 .carousel-item
+            //-                     img.d-block.w-100(src='/images/vanderbilt_czujka2.jpg' alt='Czujka Vanderbilt')
+            //-             a.carousel-control-prev(href='#carouselVanderbiltCzujki' role='button' data-slide='prev')
+            //-                 span.carousel-control-prev-icon(aria-hidden='true')
+            //-                 span.sr-only Previous
+            //-             a.carousel-control-next(href='#carouselVanderbiltCzujki' role='button' data-slide='next')
+            //-                 span.carousel-control-next-icon(aria-hidden='true')
+            //-                 span.sr-only Next
+
+            //- hr
+            //- .row.row-cols-md-2 
+            //-     .col
+            //-         h4 Czujniki sejsmiczne seria GM 
+            //-         p Czujniki stosowane do ochrony sejfów, nocnych depozytów i bankomatów. Indywidualne ustawienia przy zastosowaniu programu SensTool, łatwe testowanie poprawności instalacji i pracy przy użyciu nadajnika testowego GMXS1. Czujnik bimorficzny SENSTEC® i inteligentna, mikroprocesorowa obróbka sygnału zapewniają wysoką pewność detekcji. 
+
+            //-     .col.my-auto 
+            //-         img(src="/images/gm760.jpg", alt="GM760", id="sswinImage")
+            //- hr
+            //- .row.row-cols-md-2 
+            //-     .col
+            //-         h4 Centrale alarmowe SPC 
+            //-         p Systemy alarmowe serii SPC łączą niezrównaną elastyczność i możliwości rozbudowy nawet do 512 linii z atrakcyjną ekonomicznie konstrukcją i koncepcją systemu. Wszystkie centrale SPC spełniają wymagania norm EN 50131 i oferują elastyczny sposób pracy oraz bogaty zestaw funkcji wykorzystywanych w celu zarządzania wymaganymi metodami sygnalizacji włamania i napadu. 
+            //-     .col.my-auto
+            //-         img(src="/images/spc6330.jpg", alt="SPC6330", id="sswinImage")
+            //- hr  
+            //- .row.row-cols-md-2 
+            //-     .col
+            //-         h4 Manipulatory 
+            //-         br
+            //-         strong SPCK42x 
+            //-         p 
+            //-             | Klawiatura Standard LCD 
+            //-             br
+            //-             | 2x16 znaków alfanumerycznych 
+            //-             br
+            //-             | Opcjonalnie: 
+            //-             ul
+            //-                 li czytnik kart EM (SPCK421)
+            //-                 li odbiornik b/przewodowy
+            //-             | EN Grade 3
+            //-     .col.my-auto
+            //-         img(src="/images/spck42.jpg", alt="SPCK42", id="sswinImage")
+            //- hr
+            //- .row.row-cols-md-2 
+            //-     .col
+            //-         strong SPCK62x  
+            //-         p 
+            //-             | Klawiatura Comfort LCD 
+            //-             ul
+            //-                 li Wyświetlacz graficzny 128x64 pixels
+            //-                 li 15 klawiszy, 4 klawisze programowalne i 1 klawisz nawigacyjny 
+            //-                 li Komunikaty głosowe
+            //-                 li Możliwe wyświetlanie własnego LOGO
+            //-             br
+            //-             | Opcjonalnie:
+            //-             ul 
+            //-                 li czytnik kart EM (SPCK623)
+            //-                 li wbudowany głośnik/mikrofon (SPCK623) 
+            //-             | Dostępna obudowa podtynkowa 
+            //-             br
+            //-             | EN Grade 3
+            //-     .col.my-auto 
+            //-         img(src="/images/spck62.jpg", alt="SPCK62", id="sswinImage")
+            //- hr
+            //- .row.row-cols-md-2 
+            //-     .col 
+            //-         strong SPCK53x
+            //-         p 
+            //-             | Klawiatura Compact LCD 
+            //-             ul 
+            //-                 li Wyświetlacz graficzny 128x64 pixels 
+            //-                 li Klawisze "dotykowe", podświetlane na niebiesko 
+            //-                 li Komunikaty głosowe 
+            //-                 li Możliwe wyświetlanie własnego LOGO
+            //-             br
+            //-             | Opcjonalnie: 
+            //-             ul 
+            //-                 li czytnik kart EM i MiFare (SPCK521)
+            //-                 li odbiornik b/przewodowy
+            //-             | Dostępna obudowa podtynkowa 
+            //-             br
+            //-             | EN Grade 3
+
+            //-     .col.my-auto 
+            //-         img(src="/images/spck52.jpg", alt="SPCK52", id="sswinImage")
+
+            // hr
+            br
             .row.row-cols-md-2 
                 .col 
                     p 
