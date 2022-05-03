@@ -130,7 +130,7 @@ body{
 }
 #brandlogo2{
     height: 60px;
-    width: auto;
+    width: aseruto;
 }
 
 .card-without-border{
@@ -156,7 +156,9 @@ body{
     -moz-transform: scale(1.05);
     z-index: 0;
 }
-
+#rowproductsSSWIN{
+    display: block;
+}
 #productsSSWIN .card{
     -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
     box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
@@ -166,6 +168,10 @@ body{
     background-color: white;
     border-top: 0px;
     margin-bottom: 10px;
+}
+#productsSSWIN .card-img-top{
+    margin-left: auto;
+    margin-right: auto;
 }
 
     /* About US */
