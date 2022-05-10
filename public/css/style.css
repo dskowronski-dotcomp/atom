@@ -137,8 +137,9 @@ body{
     width: auto;
 }
 #brandlogo2{
-    height: 60px;
-    width: aseruto;
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
 }
 
 .card-without-border{
