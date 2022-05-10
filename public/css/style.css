@@ -119,6 +119,14 @@ body{
 #cctv{
     margin-top: 50px;
 }
+#cctvgallery .row img{
+    height: auto;
+    width: 80%;
+}
+#cctvgallery .row .col strong{
+    font-size: larger;
+    color: #0b449a;
+}
 #cctvImage{
     width: 50%;
     height: auto;
@@ -156,6 +164,7 @@ body{
     -moz-transform: scale(1.05);
     z-index: 0;
 }
+
 #rowproductsSSWIN{
     display: block;
 }
