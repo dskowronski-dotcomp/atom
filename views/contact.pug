@@ -2,47 +2,59 @@ extends includes/layout
 
 block content
     .container#headercontact
-        .row 
-            h3 Kontakt
+        .row.justify-content-center#projectsHeader
+            header Kontakt
+        br
+        br
         .row.row-cols-2 
             .col 
                 h4 Masz pytania? Napisz do nas lub zadzwoń
                 p Mail: 
                     a(href="mailto: biuro@atom-service.pl") biuro@atom-service.pl
-                p Tel: 
-                    a(href="tel: +48509949849") +48 509 949 849     
+                p Artur Gondek 
+                    a(href="tel: +48508322030") +48 508 322 030    
+                p Krystian Gondek 
+                    a(href="tel: +48660401951") +48 660 401 951    
             .col 
                 h4 Adres
                 p ul. II Morskiego Pułku Strzelców  11
                 p 81-661 Gdynia
         hr
         div#contactformfull
-            .row 
-                h5 Formularz kontaktowy 
-            .row.row-cols-2
-                .col-4.my-auto 
-                    label Imię i nazwisko:
-                .col-8
-                    input(type="text")
-            .row.row-cols-2 
-                .col-4.my-auto 
-                    label E-mail:
-                .col-8
-                    input(type="text")
-            .row.row-cols-2
-                .col-4.my-auto 
-                    label Telefon:
-                .col-8
-                    input(type="text")
-            .row.row-cols-2 
-                .col-4.my-auto 
-                    label Wiadomość:
-                .col-8
-                    textarea(type="text", cols="30", rows="6")
+            .row.justify-content-center#projectsHeader
+                header Formularz kontaktowy
+            br 
+            br   
+            form(action="send", method="POST", id="contact-form", enctype="multipart/form-data")  
+                .row.row-cols-2
+                    .col-4.my-auto 
+                        label Imię i nazwisko:
+                    .col-8
+                        input(type="text")
+                .row.row-cols-2 
+                    .col-4.my-auto 
+                        label E-mail:
+                    .col-8
+                        input(type="text")
+                .row.row-cols-2
+                    .col-4.my-auto 
+                        label Telefon:
+                    .col-8
+                        input(type="text")
+                .row.row-cols-2 
+                    .col-4.my-auto 
+                        label Wiadomość:
+                    .col-8
+                        textarea(type="text", cols="30", rows="6")
+                .row.row-cols-2 
+                    .col-4.my-auto 
+                    .col-8#submitButton
+                        button(class="btn btn-warning", type="submit", value="submit") Wyślij
+         
 
         div#contactformmobile
-            .row 
-                h5 Formularz kontaktowy 
+            .row.justify-content-center#projectsHeader
+                header Formularz kontaktowy
             .row
                 .col
                     input(type="text", aria-label="Imię i Nazwisko", placeholder="Imię i Nazwisko")
@@ -55,6 +67,9 @@ block content
             .row
                 .col
                     textarea(type="text", aria-label="Wiadomość", placeholder="Wiadomość", cols="30", rows="6")
+            .row
+                .col#submitButton
+                    button(class="btn btn-warning") Wyślij
     .container
         .row 
             iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2317.363167320233!2d18.5112943160151!3d54.491817095994136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda0dc1d45d7b5%3A0x3494cffe59775b13!2s2%20Morskiego%20Pu%C5%82ku%20Strzelc%C3%B3w%2011%2C%2081-661%20Gdynia!5e0!3m2!1spl!2spl!4v1649710169501!5m2!1spl!2spl' width='1920' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade')
