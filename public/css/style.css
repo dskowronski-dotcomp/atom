@@ -38,12 +38,12 @@ body{
     }
 }
 #vanderbiltlogo img{
-    width: 50%;
+    width: 30%;
     height: auto;
     display: flex;
 }
 #ganzlogo img{
-    width: 50%;
+    width: 30%;
     height: auto;
     display: flex;
 }
@@ -61,6 +61,8 @@ body{
 } 
 #cards{
     padding-top: 30px;
+    width: 60%;
+    height: auto;
 }
 #cards a{
     padding: 0;
@@ -93,7 +95,7 @@ body{
 }
 .card img{
     height: 100%;
-    min-height: 230px;
+    min-height: 280px;
     max-height: 332px;
 }
 
