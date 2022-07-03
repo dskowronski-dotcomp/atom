@@ -7,21 +7,21 @@ block content
             p Sprzedaż i serwis systemów zabezpieczenia technicznego
             hr
 
-    .container#cards
-        div.row
+    //- .container#cards
+    //-     div.row
 
-            div.col-lg-6
-                div.card.shadow-lg
-                    div.card-body
-                        h5.card-title.text-center Oferta usług
-                    a(href='/uslugi')
-                        img.card-img(src="images/uslugi.png" alt="Usługi")
-            div.col-lg-6
-                div.card.shadow-lg
-                    div.card-body
-                        h5.card-title.text-center Oferta handlowa
-                    a(href='/handel')
-                        img.card-img(src="images/shopping.jpg" alt="Handel")
+    //-         div.col-lg-6
+    //-             div.card.shadow-lg
+    //-                 div.card-body
+    //-                     h5.card-title.text-center Oferta usług
+    //-                 a(href='/uslugi')
+    //-                     img.card-img(src="images/uslugi.png" alt="Usługi")
+    //-         div.col-lg-6
+    //-             div.card.shadow-lg
+    //-                 div.card-body
+    //-                     h5.card-title.text-center Oferta handlowa
+    //-                 a(href='/handel')
+    //-                     img.card-img(src="images/shopping.jpg" alt="Handel")
     .container#cards
         div.row
 
@@ -37,6 +37,16 @@ block content
                         //h5.card-title.text-center Oferta handlowa
                     a(href='/handel')
                         img.card-img(src="images/shopping.jpg" alt="Handel")
+
+    .container#cards 
+        .row#banner 
+            .card.shadow-lg
+                a(href='/uslugi')
+                    img.card-img(src="images/oferta_uslugi.png")
+        .row#banner 
+            .card.shadow-lg
+                a(href='/handel')
+                    img.card-img(src="images/oferta_handel.png")
     .container
         .row#companyname 
             hr

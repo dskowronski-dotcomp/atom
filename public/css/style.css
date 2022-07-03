@@ -5,8 +5,12 @@ html {
 body{
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
+    padding-bottom: 350px;
     min-height: 100%;
+}
+.container{
+    min-height: 100%;
+    position: relative;
 }
     /*CARDS index and sales*/
 #companyname{
@@ -76,6 +80,11 @@ body{
 }
 #cardsSales img{
     max-height: 220px;
+}
+#banner{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 /*#cardsSales div div{*/
 /*    margin-bottom: 20px;*/
@@ -422,18 +431,28 @@ body{
 /*FOOTER*/
 
 footer p{
-    text-align: center;
     color: #000000;
     background-color: #bfbfbf;
-    padding: 20px 0px 20px 0px;
+    padding: 40px 0px 20px 0px;
     margin-bottom: 0px;
+    font-size: small;
+
+}
+footer b{
+    font-size: medium;
 }
 footer{
     position: absolute;
     bottom:0;
     width: 100%;
-}
+    height: auto;
+    background-color: #bfbfbf;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
     /*NAVBAR*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
 
