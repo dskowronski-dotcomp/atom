@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const flash = require('connect-flash');
-const nodemailer = require('nodemailer');
+//const nodemailer = require('nodemailer');
 const routes = require('./routes/index');
 
 const app = express();
