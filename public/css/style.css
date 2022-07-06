@@ -56,12 +56,14 @@ body{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    float: right;
 }
 #ganzlogo{
     margin-top: 20px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    float: left;
 } 
 #cards{
     padding-top: 30px;
@@ -151,6 +153,10 @@ body{
     height: 40px;
     width: auto;
     margin-top: 20px;
+}
+#eczujkalogo{
+    height: 30px;
+    width: auto;
 }
 
 .card-without-border{
