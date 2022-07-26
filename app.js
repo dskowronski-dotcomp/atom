@@ -35,14 +35,24 @@ app.post('/', (req, res)=>{
           pass: "1stPassword",
         },
     })
-    transporter.sendMail({
-        from: email,
-        to: 'dskowronski97@gmail.com',
-        subject: 'Nowa wiadomość',
-        text: message
-    }, (err, info) => {
-        console.log(info.envelope);
-        console.log(info.messageId);
+
+    const mailOptions = {
+        from: req.body.email,
+        to: "kontakt@atom-service.pl",
+        subject: "Message from",
+        text: req.body.message
+    }
+
+    transporter.sendMail(mailOptions, (err, info) => {
+        if(error){
+            console.log(error);
+            res.send('error');
+        } else{
+            console.log('Email sent: ' + info.response);
+            res.send('success');
+        }
+        // console.log(info.envelope);
+        // console.log(info.messageId);
     })
 })
 
