@@ -5,7 +5,7 @@ html {
 body{
     position: relative;
     margin: 0;
-    padding-bottom: 350px;
+    padding-bottom: 400px;
     min-height: 100%;
 }
 .container{
@@ -28,23 +28,26 @@ body{
 }
 @media (max-width: 1600px) {
     #vanderbiltlogo img{
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
+        
+        
     }
     #ganzlogo img{
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
 }
 @media (min-width: 1600px) {
     #vanderbiltlogo img{
-        float: right;
+        
     }
 }
 #vanderbiltlogo img{
     width: 30%;
     height: auto;
     display: flex;
+    float: right;
 }
 #ganzlogo img{
     width: 30%;
@@ -53,17 +56,17 @@ body{
 }
 #vanderbiltlogo{
     margin-top: 20px;
-    display: flex;
+    /* display: flex; */
     margin-left: auto;
     margin-right: auto;
     float: right;
 }
 #ganzlogo{
     margin-top: 20px;
-    display: flex;
+    /* display: flex; */
     margin-left: auto;
     margin-right: auto;
-    float: left;
+    /* float: left; */
 } 
 #cards{
     padding-top: 30px;
