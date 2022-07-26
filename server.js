@@ -1,10 +1,7 @@
 const app = require('./app');
+const express = require('express');
+const nodemailer = require('nodemailer');
 
-app.set('port', process.env.PORT || 8080);
-
-const server = app.listen(app.get('port'), () => {
-    console.log(`Listening on ${ server.address().port }`);
-});
 
 
 
@@ -37,7 +34,18 @@ app.post('/', (req, res)=>{
             console.log('Email sent: ' + info.response);
             res.send('success');
         }
-        // console.log(info.envelope);
-        // console.log(info.messageId);
+         console.log(info.envelope);
+         console.log(info.messageId);
     })
 })
+
+
+
+
+app.set('port', process.env.PORT || 8080);
+
+const server = app.listen(app.get('port'), () => {
+    console.log(`Listening on ${ server.address().port }`);
+});
+
+
