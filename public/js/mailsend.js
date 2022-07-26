@@ -10,7 +10,8 @@ contactForm.addEventListener("submit", (e)=>{
     e.preventDefault();
 
     let formData = {
-        name: name.value,
+        //name: name.value,
+        name: "Nowa wiadomość",
         email: email.value,
         phone: phone.value,
         message: message.value
